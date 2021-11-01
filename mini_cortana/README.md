@@ -23,7 +23,7 @@ and other functions can be found on the usage guide below
 [+] first in your cmd type ``python --version`` and depending on output download suitable wheel for Pyaudio 
     link: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
 
-ex : PyAudio‑0.2.11‑cp39‑cp39‑win_amd64.whl is for python 3.9 and win x64 
+ex : ``PyAudio‑0.2.11‑cp39‑cp39‑win_amd64.whl`` is for python 3.9 and win x64 
 
 [+] download this project link :
 
