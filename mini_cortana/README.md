@@ -18,7 +18,7 @@
 and other functions can be found on the usage guide below
 
 
-## installition guide :
+## installation guide :
 
 [+] first in your cmd type ``python --version`` and depending on output download suitable wheel for Pyaudio 
     link: https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
