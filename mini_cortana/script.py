@@ -24,19 +24,31 @@ def speak(file) :
 
 r = sr.Recognizer()
 action = False 
+banner = """
+
+        ███╗   ███╗██╗███╗   ██╗██╗     ██████╗ ██████╗ ██████╗ ████████╗ █████╗ ███╗   ██╗ █████╗ 
+        ████╗ ████║██║████╗  ██║██║    ██╔════╝██╔═══██╗██╔══██╗╚══██╔══╝██╔══██╗████╗  ██║██╔══██╗
+        ██╔████╔██║██║██╔██╗ ██║██║    ██║     ██║   ██║██████╔╝   ██║   ███████║██╔██╗ ██║███████║
+        ██║╚██╔╝██║██║██║╚██╗██║██║    ██║     ██║   ██║██╔══██╗   ██║   ██╔══██║██║╚██╗██║██╔══██║
+        ██║ ╚═╝ ██║██║██║ ╚████║██║    ╚██████╗╚██████╔╝██║  ██║   ██║   ██║  ██║██║ ╚████║██║  ██║
+        ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝     ╚═════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝
+                                        @hussien misbah                            
+"""
+
+print(banner)
 
 while True :
     with sr.Microphone() as source:
-        print("Talk :")
+        print(">Talk :")
         audio_text = r.listen(source)
-        print("Time over, try again")
+        print("[-] Time over")
 
         try:
             # using google speech recognition
             text = r.recognize_google(audio_text)
-            print("Text: "+ text.lower())
+            print("[+] Text: "+ text.lower())
         except:
-             print("Sorry, I did not get that")
+             print("[-] Sorry, I did not get that")
              continue
 
         path = "C:\\"  # set the path 
@@ -44,7 +56,7 @@ while True :
         # Basic Functions
 
         if text.lower().strip() == 'quit' :
-            print("bye")
+            print("[-] bye friend")
             break
 
         elif text.lower() == 'reset' :
