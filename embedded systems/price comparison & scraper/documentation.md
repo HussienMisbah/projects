@@ -5,9 +5,6 @@ requirements
 ```
 pip install -r requirements.txt
 ```
-[Link text Here](https://link-url-here.org)
-
-
 Idea
 ------
  this project is inspired By [This](https://github.com/Abhayparashar31/price-compare-app) repository
@@ -28,3 +25,8 @@ Program
 
 usage example
 -------------
+![img1](https://user-images.githubusercontent.com/67979878/147884655-1851c027-409e-4294-b861-321ec3ad6ca1.PNG)
+
+![image](https://user-images.githubusercontent.com/67979878/147884672-9286117b-fd64-452c-836c-01a42a6ecf09.png)
+
+any By clicking at any visit site button will open the link related .
