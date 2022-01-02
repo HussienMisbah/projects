@@ -13,6 +13,7 @@ Idea
 - from CLI to GUI
 - Handlig errors
 - dollar currency
+- exe format
 
 Program
 -------
